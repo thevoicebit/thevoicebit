@@ -1,0 +1,339 @@
+
+
+body{
+	
+	background:
+	linear-gradient( rgba(130, 0, 110, 0.95), rgba(86, 0, 20, 0.45)),
+	url("background2.jpg");
+	background-repeat: no-repeat;
+	/*background-position: center center;
+	background-size:     cover; */ 
+	font-family: Helvetica;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+
+
+}
+
+
+.nav-bar{
+	
+	
+	text-align: left;
+	padding-top:10px;
+
+    
+}
+
+.nav-bar li{
+	display: inline-block;
+	
+
+	
+
+}
+
+.nav-bar li a{
+	font-family: 'Raleway', sans-serif;
+	color: #f7f7ff;
+	text-decoration: none;
+	margin-left: 20px;
+	padding-bottom: 5px;
+	
+
+
+	
+	
+	
+}
+
+.nav-bar li a:hover{
+	border-bottom: solid 2px white;
+
+
+
+}
+
+
+
+.right{
+	float: right;
+	padding-right: 70px;
+}
+
+#sign{
+	background: rgb(131, 49, 152);
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: -22px;
+    border:none;
+}
+
+#logo{
+		font-family: 'Oswald', sans-serif;
+		font-size: 50px;
+		color: rgba(255,255,255,0.75);
+		padding-left: 5%;
+		text-align: center;
+		padding-top: 5%;
+		padding-right: 5%;
+}
+
+
+
+#voice_logo{
+
+	height: 60px;
+	width: 60px;
+
+
+}
+
+#intro{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: rgba(255,255,255,0.75);
+	font-size: 30px;
+	margin: none;
+	padding-top: 0;
+	margin-bottom: 0px;
+}
+
+#hashtag{
+	font-family: 'Cabin Sketch', cursive;
+    text-align: center;
+    font-size: 54px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: white;
+
+}
+
+/*#talk button{
+	font-family: 'Raleway', sans-serif;
+	color: #f7f7ff;
+	font-size: 20px;
+	background-color: #3099c1;
+	text-align: center;
+	margin-left: 44.5%;
+	margin-top: 29px;
+	border: none;
+	height: 50px;
+	width:160px;
+	border-radius: 6px;
+	outline: none;
+	
+}
+
+#talk button:hover{
+	background-color: #3674b5;
+	transition: 0.5s;
+} */
+#talk{
+	height: 15%;
+	display: flex;
+  align-items: center;
+  justify-content: center
+}
+#talk button {
+  width: 140px;
+  height: 45px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: rgba(255,255,255,0.5);
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  
+  margin-top: -17px;
+  }
+
+#talk button:hover {
+  background-color: #820967;
+  box-shadow: 0px 15px 20px rgba(63, 2, 50, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+#hor{
+	
+	border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(255,255,255, 0), rgba(255,255, 255, 0.75), rgba(255, 255, 255, 0));
+    width:70%;
+    padding-top: 0px;
+}
+
+#connect{
+
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: rgba(255,255,255,0.75);
+
+}
+#social_cont{
+  height: 17%;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.social{
+	height: 55px;
+	width: 55px;
+	padding-left: 15px;
+	padding-right: 15px;
+	transition: 0.25s;
+}
+
+.social:hover{
+
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  transition: 0.25s;
+
+}
+
+
+
+#about_us{
+	
+	height: 100%;
+	background:
+	linear-gradient( rgba(140, 0, 44, 0.95), rgba(57,31,219, 0.00)),
+	url("aboutus.jpg");
+	background-repeat: no-repeat;
+	font-family: 'Raleway', sans-serif;
+	/*border-top: solid 2px black;*/
+    color: white;
+	font-size: 40px;
+
+
+}
+
+#abt{
+	padding-top: 30px;
+	color: rgba(255,255,255,0.75);;
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+
+}
+
+#abt_txt{
+
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: rgba(255,255,255,0.75);
+	font-size: 25px;
+	margin: 0px;
+
+}
+
+#events{
+	background:
+	rgba(140, 0, 44, 1);
+	height: 100%;
+	
+}
+
+#head{
+	
+	margin: 0px;
+	padding-top: 30px;
+	color: rgba(255,255,255,0.75);;
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+
+
+}
+
+
+
+
+
+
+
+.team_head{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: rgba(255,255,255,0.75);
+	font-size: 35px;
+	font-weight: 600;
+	margin: 0px;
+
+}
+
+/*-----TEAM PAGE STYLE -----*/
+.proflie {
+  position: relative;
+  width: 25%;
+  height: 25%;
+}
+
+.image {
+  display: block;
+  width: 25%;
+  height: 25%;
+
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 25%;
+  width: 25%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.profile:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/*--------ABOUT US PAGE-----*/
+
+.vision{
+	
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	font-weight: 700;
+	font-size: 30px;
+	color:white;
+	opacity: 0.75;
+	text-align: center;
+
+
+}
+
+.mission_txt{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	
+	font-size: 20px;
+	color:white;
+	opacity: 0.75;
+}
